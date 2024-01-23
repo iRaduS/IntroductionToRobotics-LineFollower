@@ -18,7 +18,7 @@
  ## Features & Parameters ⚙️
  - We made an automatic calibration for 6 seconds by powering the right motor until the sensor is out of the line and after we power the left motor and so on.
  - Then we move the car left or right until the sensor is centered on the line.
- - We map the error from sensors to [-50, 50] interval and apply PID with kp = 40, ki = 0, kd = 4. 
+ - We map the error from sensors to [-30, 30] interval and apply PID with kp = 13.2, ki = 0, kd = 2. 
  - For a better approach in tight turns, we spin one motor forward and the other backwards.
 
 ## Context 🚀
